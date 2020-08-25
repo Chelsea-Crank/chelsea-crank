@@ -1,0 +1,234 @@
+/***** BASE STYLES *****/
+body {
+    color: #151A1D;
+	font-family: 'mr-eaves-modern', sans-serif;
+}
+
+	
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+	float: left;
+    width: 600px;
+}
+
+.third-width {
+   	float: left;
+	width: 400px;
+}
+
+
+/***** HEADER *****/
+header {
+    background: url("../img/hero-image.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1, #projects h1, #skills h1 {
+	color: #f26666;
+	font-family: 'Adelle', serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 30px;
+	line-height: 30px; 
+    padding: 65px 0 65px 25px;
+	text-align: left;
+}
+
+header h2 {
+    clear: both;
+    color: #6a8fa6;
+    font-family: 'Adelle';
+    font-size: 72px;
+    line-height: 80px; 
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+}
+
+header h2 span {
+	color: #4d616b;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+	color: #6A8FA6;
+	font-size: 18px;
+    text-transform: uppercase;  
+    text-decoration: none;
+    padding-left: 80px; 
+}
+
+nav a:hover {
+	color: darkgreen;
+}
+
+
+/***** ABOUT *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Adelle', serif; 
+	font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+	color: #4d616b;
+	font-size: 21px;
+	line-height: 40px;
+	padding: 0 50px;
+}
+
+
+/***** WORK *****/
+#work {
+	background-color: #F2C230;
+	text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work h3 {
+	font-size: 24px;
+	line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+}
+ 
+#work p {
+    font-family: 'Adelle', serif;
+	font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+	line-height: 30px;
+    padding: 0 50px;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+
+/***** FOOTER and CONTACT *****/
+#contact {
+	background-color: #6a8fa6;
+}
+
+#contact .full-width {
+    padding: 100px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+	font-family: 'Adelle';
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 44px;	
+}
+
+#contact #email-header {
+	font-family: 'mr-eaves-modern';
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+	font-family: 'mr-eaves-modern';
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+	color: #eefaff;
+	font-family: 'mr-eaves-modern';
+	font-size: 28px;
+	font-weight: 700;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+/***** PROJECT PAGE *****/
+#projects .third-width {
+	text-align: center;
+}
+
+#projects img {
+    border: 1px solid #6a8fa6;
+	margin-top: 20px;
+}
+
+#projects h3 {
+	color: #6a8fa6;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#projects p {
+    font-family: 'Adelle', serif;
+	font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+	line-height: 30px;
+	padding: 0 20px;
+}
+
+/***** SKILLS *****/
+
+#skills h2 {
+    font-family: 'Adelle', serif; 
+	font-size: 36px;
+    padding-left: 50px;
+}
+
+#skills ul {
+	color: #4d616b;
+	font-size: 21px;
+	line-height: 40px;
+	padding: 0 50px;
+}
